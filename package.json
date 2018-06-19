@@ -1,14 +1,27 @@
 
 {
-  "name": "test",
- "description": "test",
+  "name": "deus-vult",
   "version": "0.0.0",
+  "description": "gods fav bot",
   "main": "bot.js",
-  "scripts": {
-    "start": "node bot.js"
-  },
   "dependencies": {
-    "discord.js": "11.1.0",
-    
+    "socket.io": "~0.9.16",
+    "xml2js": "~0.4.1",
+    "express": "~3.4.8"
+  },
+  "devDependencies": {},
+	"discord.js": "11.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "roman-sharf",
+  "license": "ISC",
+  "engines": {
+    "node": "0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   }
 }
